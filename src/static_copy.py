@@ -20,4 +20,3 @@ def copy_contents(source, destination):
             shutil.copy(source_dir, destination_dir) 
         else:
             copy_contents(source_dir, destination_dir)
-            return "Successfully copied"
